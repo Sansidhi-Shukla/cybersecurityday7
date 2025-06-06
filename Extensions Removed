@@ -1,0 +1,23 @@
+# Steps Taken to Protect Against Malicious Extensions:
+
+1. Audit Installed Extensions:
+  * Reviewed all installed extensions in Chrome and/or Firefox.
+  * Checked for unknown, unused, or suspicious extensions.
+2. Permission Review:
+  * Examined permissions requested by each extension (especially those with access to "all websites").
+3. Extension Source Verification:
+  * Verified if extensions were from trusted developers or the official store.
+4. Update Check:
+  * Ensured all extensions were up-to-date, as updates can patch known vulnerabilities.
+5. Removed unnecessary or high-risk extensions, especially those:
+  * With poor ratings or reviews.
+  * That were not open-source or clearly documented.
+  * That had not been updated in a long time.
+
+🧹 Extensions Removed:
+
+Extension Name	                  Reason for Removal
+XYZ Tab Manager	        Requested excessive permissions
+Free VPN Unlimited	    Redirected traffic, possibly logging activity
+Super AdBlocker Pro	    Injected own ads, suspicious background tasks
+PDF Converter Tool	    Low ratings, browser hijack reports
