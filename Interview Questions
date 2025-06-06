@@ -1,0 +1,102 @@
+Interview Questions Answers
+
+### **1. How can browser extensions pose security risks?**
+
+Browser extensions can:
+
+* **Read sensitive data** (e.g., passwords, emails, credit card info).
+* **Modify web content** and inject malicious scripts (e.g., fake login forms).
+* **Track browsing habits** and sell data to third parties.
+* **Redirect users** to phishing or scam websites.
+* **Install malware** or act as backdoors for hackers.
+* **Mine cryptocurrency** using your CPU (cryptojacking).
+
+---
+
+### **2. What permissions should raise suspicion?**
+
+Be cautious if an extension asks for:
+
+* **“Read and change all your data on all websites”** – too broad.
+* **Clipboard access** – could steal copied data.
+* **Access to downloads/history** – allows spying or injecting malware.
+* **Unlimited storage** – could collect large amounts of personal data.
+* **Background access** – can run persistently and silently.
+* **Access to tabs or keystrokes** – can log activity or hijack sessions.
+
+---
+
+### **3. How to safely install browser extensions?**
+
+* ✅ Only install from **official stores** (e.g., Chrome Web Store, Firefox Add-ons).
+* ✅ **Read reviews** and check **developer credibility**.
+* ✅ Verify the **permissions** before installing.
+* ✅ Prefer **open-source extensions** when possible.
+* ✅ Avoid extensions with:
+
+  * Few users
+  * No recent updates
+  * Generic names or fake branding
+
+---
+
+### **4. What is extension sandboxing?**
+
+**Extension sandboxing** is a security technique where:
+
+* Each extension runs in an **isolated environment** (sandbox).
+* It **cannot access other extensions** or system files unless explicitly allowed.
+* Browsers use sandboxing to **contain malicious behavior**, limiting what damage an extension can do.
+
+However, **sandboxing is only effective** if the extension doesn't have excessive permissions.
+
+---
+
+### **5. Can extensions steal passwords?**
+
+✅ Yes — if they have access to:
+
+* Web page contents
+* Keystrokes
+* Login forms
+
+Malicious extensions can **record what you type**, including passwords, and send them to external servers. That’s why **limiting permissions** and verifying the extension source is critical.
+
+---
+
+### **6. How to update extensions securely?**
+
+* 🔄 **Chrome & Firefox auto-update extensions** by default.
+* ✅ Make sure **browser auto-updates** are enabled.
+* ⚠️ Avoid **manually installing extensions** via `.crx` or `.xpi` files from unknown sources — this can bypass official vetting.
+* ✅ Review changes after an update (especially if permissions change).
+
+---
+
+### **7. Difference between extensions and plugins?**
+
+| Feature              | **Extension**                       | **Plugin** (mostly deprecated)        |
+| -------------------- | ----------------------------------- | ------------------------------------- |
+| Runs inside browser? | ✅ Yes                               | ❌ External software component         |
+| Installed from?      | Browser store                       | Manually or via third-party installer |
+| Examples             | uBlock Origin, Grammarly, Bitwarden | Flash, Java applets (now obsolete)    |
+| Current status       | Widely used                         | Deprecated by modern browsers         |
+
+---
+
+### **8. How to report malicious extensions?**
+
+* **Chrome Web Store**:
+
+  * Visit the extension's page → Click **“Report abuse”**.
+  * Or go to [https://chrome.google.com/webstore](https://chrome.google.com/webstore) → search extension → report.
+
+* **Firefox Add-ons**:
+
+  * Visit the add-on’s page → Scroll down → Click **“Report this add-on”**.
+
+* **Include**: Details, screenshots, suspicious behavior, websites affected.
+
+---
+
+Would you like this content formatted as a PDF or Markdown report for easy submission or printing?
