@@ -1,0 +1,26 @@
+# Research: How Malicious Browser Extensions Can Harm Users
+Malicious browser extensions can seriously compromise user privacy and security. Here's how they can be harmful:
+
+⚠️ Ways Malicious Extensions Harm Users:
+1. Data Theft:
+  * Read sensitive information like passwords, credit card details, and browsing history.
+  * Capture keystrokes and clipboard content.
+2. Session Hijacking:
+  * Steal cookies or session tokens to impersonate users on websites.
+3. Ad Injection & Redirection:
+  * Modify web pages to show ads or redirect users to phishing or scam sites.
+4. Cryptojacking:
+  * Use the user’s system resources (CPU/GPU) to mine cryptocurrency without consent.
+5. Surveillance & Tracking:
+  * Monitor user activity across sites, building a profile for surveillance or advertising purposes.
+6. Privilege Abuse:
+  * Extensions with broad permissions (e.g., "Read and change all your data on websites") can manipulate websites, APIs, and user input.
+7. Spreading Malware:
+  * Some extensions download and execute malicious scripts or act as a delivery vehicle for malware.
+8. Persistent Access:
+  * Use background scripts or silent updates to remain active and evade removal.
+
+🧠 Notable Examples:
+# DataSpii: Popular Chrome extensions leaked sensitive user data to third parties.
+# Fake AdBlockers: Some ad-blocking extensions were found to inject their own ads or track users.
+
